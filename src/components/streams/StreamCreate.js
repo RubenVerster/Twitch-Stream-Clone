@@ -2,6 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { createStream } from '../../actions';
 import StreamForm from './StreamForm';
+
 class StreamCreate extends React.Component {
   //with redux-form, this onSubmit recieves the properties of the Field components within the form
   onSubmit = (formValues) => {
